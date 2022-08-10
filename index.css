@@ -50,11 +50,6 @@ button:hover {
     background-color: rgb(21, 133, 30);
 }
 
-.container {
-    max-width: 1400px;
-    margin: auto;
-}
-
 .color-acento {
     color: rgb(48, 211, 61);
 }
@@ -102,7 +97,7 @@ header a:hover {
     text-align: center;
     flex-direction: column;
     height: 90vh;
-    background-image: linear-gradient( 0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("media/hero.jpg");
+    background-image: linear-gradient( 0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("media/hero2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -112,31 +107,31 @@ header a:hover {
     color: white;
 }
 
-#somos-proya .container {
+#soy .container {
     text-align: center;
     padding: 200px 12px;
 }
 
-#nuestros-programas {
+#proyectos {
     background-color: rgb(30, 30, 30);
     color: white;
     text-align: center;
 }
 
-#nuestros-programas .container {
+#proyectos .container {
     padding: 150px 12px;
 }
 
-#nuestros-programas h2 {
+#proyectos h2 {
     margin-top: 0;
     font-size: 3.2em;
 }
 
-#nuestros-programas p {
+#proyectos p {
     display: none;
 }
 
-#nuestros-programas .carta {
+#proyectos .carta {
     background-position: center center;
     background-size: cover;
     padding: 50px 0px;
@@ -150,10 +145,6 @@ header a:hover {
 
 .carta:nth-child(2) {
     background-image: linear-gradient( 0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("media/full-stack.jpg");
-}
-
-.carta:nth-child(3) {
-    background-image: linear-gradient( 0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("media/python.jpg");
 }
 
 #caracteristicas .container {
@@ -222,11 +213,11 @@ footer .container {
     #hero h1 {
         font-size: 5em;
     }
-    #somos-proya .container {
+    #soy .container {
         display: flex;
         justify-content: space-evenly;
     }
-    #somos-proya .texto {
+    #soy .texto {
         width: 50%;
         max-width: 600px;
         text-align: initial;
@@ -235,31 +226,31 @@ footer .container {
         flex-direction: column;
         justify-content: center;
     }
-    #somos-proya h2 {
+    #soy h2 {
         margin-top: 0px;
     }
-    #somos-proya .img-container {
+    #soy .img-container {
         background-image: url("media/perfil2.png");
         background-size: cover;
         background-position: center center;
         height: 350px;
         width: 350px;
     }
-    #nuestros-programas .programas {
+    #proyectos .programas {
         display: flex;
         justify-content: center;
     }
-    #nuestros-programas p {
+    #proyectos p {
         display: block;
         margin-bottom: 30px;
     }
-    #nuestros-programas h2 {
+    #proyectos h2 {
         font-size: 4em;
     }
-    #nuestros-programas h3 {
+    #proyectos h3 {
         margin-top: 0;
     }
-    #nuestros-programas .carta {
+    #proyectos .carta {
         padding: 50px;
         background-size: 100% 150px;
         background-repeat: no-repeat;
@@ -293,6 +284,9 @@ footer .container {
     }
     #final button {
         font-size: 2em;
+    }
+    #final ul {
+        font: 2em sans-serif;
     }
     footer .container {
         justify-content: flex-end;
